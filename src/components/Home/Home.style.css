@@ -1,0 +1,124 @@
+.mainWrapper {
+  background: #35749d;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-top: 4rem;
+}
+
+.titleBlock {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  color: #def1ff;
+  font-size: 3.7rem;
+  font-weight: 700;
+  text-align: center;
+  width: 600px;
+}
+
+.formContainer {
+  align-self: flex-end;
+  padding-right: 7rem;
+  min-width: 400px;
+  width: 45%;
+  z-index: 50;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.inputTitle {
+  flex: 3;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.inputContent {
+  flex: 2;
+  position: relative;
+}
+
+.inputGroup:nth-child(1) .inputContent::before,
+.inputGroup:nth-child(3) .inputContent::before {
+  content: '$';
+  font-size: .9rem;
+  position: absolute;
+  top: 6px;
+  color: #fff;
+  opacity: .5;
+}
+
+.inputGroup:nth-child(2) .inputContent::before {
+  content: '+$';
+  font-size: .9rem;
+  position: absolute;
+  top: 6px;
+  color: #fff;
+  opacity: .5;
+}
+
+.input {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 4px 0 4px 38px;
+  text-align: right;
+  width: 100%;
+}
+
+.inputGroup:nth-child(4) > div > div > div > div {
+  border-radius: 4px;
+}
+
+.chartContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 101.4vw;
+  height: 70vh;
+  z-index: 49;
+}
+
+.legends {
+  height: auto;
+  width: 200px;
+  position: absolute;
+  right: 7rem;
+  bottom: 20%;
+  text-align: right;
+}
+
+.legendContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.legendText {
+  width: 140px;
+  color: #fff;
+  opacity: .7;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.chipperColor {
+  height: 8px;
+  width: 40px;
+  background-color: #299b70;
+}
+
+.traditionalColor {
+  height: 8px;
+  width: 40px;
+  background-color: #73BED6;
+}

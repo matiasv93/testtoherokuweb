@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1511981579049" clover="3.2.0">
+  <project timestamp="1511981579049" name="All files">
+    <metrics statements="396" coveredstatements="320" conditionals="199" coveredconditionals="116" methods="123" coveredmethods="86" elements="718" coveredelements="522" complexity="0" loc="396" ncloc="396" packages="30" files="67" classes="67">
+      <package name="web">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="testSetup.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/testSetup.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="6" count="22" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.config">
+        <metrics statements="16" coveredstatements="13" conditionals="18" coveredconditionals="12" methods="4" coveredmethods="3"/>
+        <file name="env.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/config/env.js">
+          <metrics statements="9" coveredstatements="7" conditionals="16" coveredconditionals="12" methods="2" coveredmethods="2"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="39" count="3" type="stmt"/>
+          <line num="43" count="3" type="stmt"/>
+          <line num="65" count="9" type="stmt"/>
+          <line num="70" count="3" type="stmt"/>
+          <line num="72" count="3" type="cond" truecount="1" falsecount="1"/>
+          <line num="73" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="74" count="0" type="stmt"/>
+          <line num="79" count="3" type="stmt"/>
+        </file>
+        <file name="muiTheme.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/config/muiTheme.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="6" count="5" type="stmt"/>
+        </file>
+        <file name="offline.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/config/offline.js">
+          <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        </file>
+        <file name="variables.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/config/variables.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="9" count="7" type="stmt"/>
+          <line num="76" count="7" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.config.webpack">
+        <metrics statements="40" coveredstatements="40" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <file name="browser.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/config/webpack/browser.js">
+          <metrics statements="25" coveredstatements="25" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="37" count="1" type="stmt"/>
+          <line num="39" count="1" type="stmt"/>
+          <line num="119" count="1" type="stmt"/>
+          <line num="121" count="1" type="stmt"/>
+          <line num="127" count="1" type="stmt"/>
+          <line num="161" count="1" type="stmt"/>
+        </file>
+        <file name="server.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/config/webpack/server.js">
+          <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="74" count="1" type="stmt"/>
+          <line num="76" count="1" type="stmt"/>
+          <line num="82" count="1" type="stmt"/>
+          <line num="122" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.config.webpack.blocks">
+        <metrics statements="62" coveredstatements="60" conditionals="30" coveredconditionals="24" methods="20" coveredmethods="19"/>
+        <file name="babel.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/config/webpack/blocks/babel.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="6" count="2" type="stmt"/>
+          <line num="8" count="2" type="stmt"/>
+          <line num="9" count="2" type="stmt"/>
+          <line num="11" count="2" type="stmt"/>
+          <line num="49" count="2" type="stmt"/>
+        </file>
+        <file name="cssModules.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/config/webpack/blocks/cssModules.js">
+          <metrics statements="18" coveredstatements="18" conditionals="14" coveredconditionals="14" methods="4" coveredmethods="4"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="9" count="12" type="stmt"/>
+          <line num="13" count="12" type="cond" truecount="2" falsecount="0"/>
+          <line num="28" count="12" type="cond" truecount="2" falsecount="0"/>
+          <line num="32" count="12" type="cond" truecount="2" falsecount="0"/>
+          <line num="36" count="12" type="cond" truecount="2" falsecount="0"/>
+          <line num="40" count="12" type="cond" truecount="2" falsecount="0"/>
+          <line num="44" count="12" type="cond" truecount="2" falsecount="0"/>
+          <line num="48" count="12" type="stmt"/>
+          <line num="61" count="12" type="stmt"/>
+          <line num="71" count="6" type="stmt"/>
+          <line num="75" count="6" type="stmt"/>
+          <line num="77" count="6" type="stmt"/>
+          <line num="81" count="6" type="stmt"/>
+          <line num="91" count="6" type="cond" truecount="2" falsecount="0"/>
+          <line num="93" count="3" type="stmt"/>
+          <line num="104" count="3" type="stmt"/>
+          <line num="111" count="3" type="stmt"/>
+        </file>
+        <file name="eslint.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/config/webpack/blocks/eslint.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+        </file>
+        <file name="getEntry.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/config/webpack/blocks/getEntry.js">
+          <metrics statements="16" coveredstatements="15" conditionals="8" coveredconditionals="5" methods="3" coveredmethods="3"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="4" count="2" type="stmt"/>
+          <line num="9" count="2" type="stmt"/>
+          <line num="13" count="2" type="cond" truecount="1" falsecount="1"/>
+          <line num="15" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="37" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="41" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="44" count="1" type="stmt"/>
+          <line num="51" count="1" type="stmt"/>
+          <line num="52" count="1" type="stmt"/>
+          <line num="54" count="1" type="stmt"/>
+          <line num="55" count="1" type="stmt"/>
+          <line num="59" count="1" type="stmt"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="70" count="2" type="stmt"/>
+        </file>
+        <file name="getExternals.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/config/webpack/blocks/getExternals.js">
+          <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="17" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="26" count="1" type="stmt"/>
+        </file>
+        <file name="getResolve.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/config/webpack/blocks/getResolve.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="8" count="2" type="stmt"/>
+          <line num="27" count="2" type="stmt"/>
+        </file>
+        <file name="getTarget.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/config/webpack/blocks/getTarget.js">
+          <metrics statements="8" coveredstatements="7" conditionals="6" coveredconditionals="4" methods="2" coveredmethods="2"/>
+          <line num="6" count="2" type="stmt"/>
+          <line num="10" count="2" type="cond" truecount="1" falsecount="1"/>
+          <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="17" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="30" count="2" type="stmt"/>
+        </file>
+        <file name="setPlatform.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/config/webpack/blocks/setPlatform.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="7" count="2" type="stmt"/>
+          <line num="10" count="2" type="stmt"/>
+          <line num="14" count="2" type="stmt"/>
+          <line num="19" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.server.views">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <file name="Html.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/server/views/Html.js">
+          <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+          <line num="19" count="9" type="cond" truecount="1" falsecount="1"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="25" count="4" type="stmt"/>
+          <line num="26" count="4" type="stmt"/>
+          <line num="28" count="4" type="stmt"/>
+          <line num="29" count="4" type="stmt"/>
+          <line num="30" count="4" type="stmt"/>
+          <line num="31" count="4" type="stmt"/>
+          <line num="32" count="4" type="stmt"/>
+          <line num="35" count="4" type="stmt"/>
+          <line num="40" count="4" type="stmt"/>
+          <line num="41" count="4" type="stmt"/>
+          <line num="43" count="4" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.components.examples.Home">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <file name="Home.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/components/examples/Home/Home.js">
+          <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.components.examples.Profile">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <file name="Profile.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/components/examples/Profile/Profile.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.components.examples.Template">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Template.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/components/examples/Template/Template.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.components.examples.Todos">
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <file name="Todos.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/components/examples/Todos/Todos.js">
+          <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="33" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.components.shared.ErrorMessage">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <file name="ErrorMessage.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/components/shared/ErrorMessage/ErrorMessage.js">
+          <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="17" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="19" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.components.shared.LinkReplace">
+        <metrics statements="9" coveredstatements="1" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <file name="LinkReplace.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/components/shared/LinkReplace/LinkReplace.js">
+          <metrics statements="9" coveredstatements="1" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="29" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="70" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.components.shared.LoadingIndicator">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <file name="LoadingIndicator.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/components/shared/LoadingIndicator/LoadingIndicator.js">
+          <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="19" count="2" type="stmt"/>
+          <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="23" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.components.shared.Modal">
+        <metrics statements="12" coveredstatements="12" conditionals="17" coveredconditionals="14" methods="3" coveredmethods="3"/>
+        <file name="Modal.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/components/shared/Modal/Modal.js">
+          <metrics statements="12" coveredstatements="12" conditionals="17" coveredconditionals="14" methods="3" coveredmethods="3"/>
+          <line num="15" count="5" type="cond" truecount="1" falsecount="1"/>
+          <line num="22" count="5" type="stmt"/>
+          <line num="23" count="5" type="stmt"/>
+          <line num="28" count="5" type="stmt"/>
+          <line num="36" count="5" type="stmt"/>
+          <line num="46" count="5" type="stmt"/>
+          <line num="50" count="5" type="cond" truecount="1" falsecount="1"/>
+          <line num="54" count="5" type="cond" truecount="2" falsecount="0"/>
+          <line num="62" count="1" type="stmt"/>
+          <line num="63" count="1" type="stmt"/>
+          <line num="67" count="4" type="cond" truecount="3" falsecount="1"/>
+          <line num="70" count="4" type="cond" truecount="2" falsecount="0"/>
+        </file>
+        <file name="index.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/components/shared/Modal/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="web.src.components.shared.Modal.Login">
+        <metrics statements="18" coveredstatements="12" conditionals="8" coveredconditionals="7" methods="7" coveredmethods="4"/>
+        <file name="Login.index.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/components/shared/Modal/Login/Login.index.js">
+          <metrics statements="15" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="3"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="12" count="3" type="stmt"/>
+          <line num="13" count="3" type="stmt"/>
+          <line num="17" count="3" type="stmt"/>
+          <line num="19" count="6" type="cond" truecount="1" falsecount="1"/>
+          <line num="22" count="3" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="57" count="1" type="stmt"/>
+          <line num="58" count="6" type="stmt"/>
+        </file>
+        <file name="Login.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/components/shared/Modal/Login/Login.js">
+          <metrics statements="3" coveredstatements="2" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="1"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="33" count="8" type="stmt"/>
+          <line num="35" count="8" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.components.shared.RequireAuth">
+        <metrics statements="9" coveredstatements="8" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="1"/>
+        <file name="RequireAuth.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/components/shared/RequireAuth/RequireAuth.js">
+          <metrics statements="7" coveredstatements="7" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+          <line num="24" count="5" type="stmt"/>
+          <line num="25" count="5" type="stmt"/>
+          <line num="26" count="5" type="stmt"/>
+          <line num="28" count="5" type="cond" truecount="2" falsecount="0"/>
+          <line num="30" count="5" type="cond" truecount="4" falsecount="0"/>
+          <line num="31" count="3" type="cond" truecount="4" falsecount="0"/>
+          <line num="33" count="2" type="cond" truecount="2" falsecount="0"/>
+        </file>
+        <file name="index.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/components/shared/RequireAuth/index.js">
+          <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="12" count="2" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.components.shared.Status">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <file name="Status.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/components/shared/Status/Status.js">
+          <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="2" type="stmt"/>
+          <line num="15" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="18" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.components.shared.TextField">
+        <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <file name="TextField.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/components/shared/TextField/TextField.js">
+          <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="37" count="7" type="stmt"/>
+          <line num="40" count="7" type="stmt"/>
+          <line num="46" count="7" type="stmt"/>
+          <line num="50" count="10" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/components/shared/TextField/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="web.src.helpers">
+        <metrics statements="71" coveredstatements="54" conditionals="32" coveredconditionals="10" methods="34" coveredmethods="24"/>
+        <file name="api.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/helpers/api.js">
+          <metrics statements="44" coveredstatements="36" conditionals="25" coveredconditionals="8" methods="23" coveredmethods="20"/>
+          <line num="8" count="2" type="stmt"/>
+          <line num="9" count="2" type="stmt"/>
+          <line num="32" count="2" type="stmt"/>
+          <line num="33" count="6" type="stmt"/>
+          <line num="37" count="6" type="cond" truecount="0" falsecount="1"/>
+          <line num="39" count="6" type="cond" truecount="1" falsecount="1"/>
+          <line num="41" count="6" type="cond" truecount="3" falsecount="1"/>
+          <line num="45" count="6" type="stmt"/>
+          <line num="53" count="6" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="70" count="2" type="stmt"/>
+          <line num="75" count="0" type="stmt"/>
+          <line num="77" count="0" type="cond" truecount="0" falsecount="6"/>
+          <line num="83" count="0" type="stmt"/>
+          <line num="90" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="92" count="0" type="stmt"/>
+          <line num="100" count="0" type="stmt"/>
+          <line num="116" count="2" type="stmt"/>
+          <line num="118" count="7" type="stmt"/>
+          <line num="120" count="7" type="cond" truecount="1" falsecount="1"/>
+          <line num="122" count="7" type="stmt"/>
+          <line num="125" count="7" type="stmt"/>
+          <line num="127" count="7" type="stmt"/>
+          <line num="135" count="1" type="stmt"/>
+          <line num="148" count="2" type="stmt"/>
+          <line num="151" count="2" type="stmt"/>
+          <line num="153" count="2" type="stmt"/>
+          <line num="157" count="2" type="stmt"/>
+          <line num="160" count="1" type="stmt"/>
+          <line num="162" count="1" type="stmt"/>
+          <line num="166" count="2" type="stmt"/>
+          <line num="169" count="1" type="stmt"/>
+          <line num="171" count="1" type="stmt"/>
+          <line num="175" count="2" type="stmt"/>
+          <line num="178" count="1" type="stmt"/>
+          <line num="180" count="1" type="stmt"/>
+          <line num="184" count="2" type="stmt"/>
+          <line num="187" count="1" type="stmt"/>
+          <line num="189" count="1" type="stmt"/>
+          <line num="192" count="2" type="stmt"/>
+          <line num="195" count="1" type="stmt"/>
+          <line num="196" count="1" type="stmt"/>
+          <line num="200" count="1" type="stmt"/>
+          <line num="203" count="0" type="stmt"/>
+        </file>
+        <file name="auth.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/helpers/auth.js">
+          <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="10" count="2" type="stmt"/>
+          <line num="11" count="6" type="stmt"/>
+          <line num="13" count="2" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="16" count="2" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+        </file>
+        <file name="observableApi.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/helpers/observableApi.js">
+          <metrics statements="6" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+        </file>
+        <file name="storage.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/helpers/storage.js">
+          <metrics statements="14" coveredstatements="12" conditionals="4" coveredconditionals="2" methods="5" coveredmethods="3"/>
+          <line num="6" count="3" type="stmt"/>
+          <line num="8" count="3" type="cond" truecount="1" falsecount="1"/>
+          <line num="13" count="3" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="17" count="3" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="21" count="3" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="34" count="3" type="stmt"/>
+          <line num="36" count="6" type="stmt"/>
+          <line num="37" count="6" type="cond" truecount="1" falsecount="1"/>
+          <line num="38" count="6" type="stmt"/>
+          <line num="43" count="3" type="stmt"/>
+          <line num="45" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.redux">
+        <metrics statements="10" coveredstatements="8" conditionals="5" coveredconditionals="3" methods="3" coveredmethods="2"/>
+        <file name="devtools.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/devtools.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="4" count="5" type="stmt"/>
+        </file>
+        <file name="store.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/store.js">
+          <metrics statements="9" coveredstatements="7" conditionals="5" coveredconditionals="3" methods="2" coveredmethods="1"/>
+          <line num="14" count="5" type="stmt"/>
+          <line num="16" count="5" type="stmt"/>
+          <line num="24" count="5" type="cond" truecount="1" falsecount="1"/>
+          <line num="35" count="5" type="stmt"/>
+          <line num="40" count="5" type="stmt"/>
+          <line num="43" count="5" type="cond" truecount="1" falsecount="1"/>
+          <line num="45" count="0" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="50" count="5" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.redux.epics">
+        <metrics statements="8" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <file name="fetchProfile.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/epics/fetchProfile.js">
+          <metrics statements="7" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="1"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="23" count="5" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/epics/index.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="12" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.redux.middleware">
+        <metrics statements="15" coveredstatements="5" conditionals="14" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <file name="errorDisplay.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/middleware/errorDisplay.js">
+          <metrics statements="15" coveredstatements="5" conditionals="14" coveredconditionals="1" methods="3" coveredmethods="3"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="5" type="stmt"/>
+          <line num="15" count="11" type="cond" truecount="1" falsecount="1"/>
+          <line num="16" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="32" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="47" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.redux.modules">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/index.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="40" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.redux.modules.auth">
+        <metrics statements="28" coveredstatements="19" conditionals="14" coveredconditionals="8" methods="11" coveredmethods="1"/>
+        <file name="actions.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/auth/actions.js">
+          <metrics statements="9" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="0"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="33" count="0" type="stmt"/>
+        </file>
+        <file name="api.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/auth/api.js">
+          <metrics statements="7" coveredstatements="5" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+        </file>
+        <file name="consts.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/auth/consts.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+        </file>
+        <file name="initialState.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/auth/initialState.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="5" count="2" type="stmt"/>
+        </file>
+        <file name="mocks.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/auth/mocks.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="3" count="2" type="stmt"/>
+        </file>
+        <file name="reducer.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/auth/reducer.js">
+          <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+          <line num="12" count="26" type="cond" truecount="7" falsecount="0"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="37" count="1" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="62" count="20" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.redux.modules.env">
+        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <file name="initialState.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/env/initialState.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+        </file>
+        <file name="reducer.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/env/reducer.js">
+          <metrics statements="1" coveredstatements="1" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <line num="9" count="18" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.redux.modules.examples">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/examples/index.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="16" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.redux.modules.examples.profile">
+        <metrics statements="13" coveredstatements="10" conditionals="5" coveredconditionals="2" methods="4" coveredmethods="1"/>
+        <file name="actions.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/examples/profile/actions.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+        </file>
+        <file name="consts.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/examples/profile/consts.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="3" count="2" type="stmt"/>
+          <line num="4" count="2" type="stmt"/>
+        </file>
+        <file name="initialState.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/examples/profile/initialState.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="4" count="2" type="stmt"/>
+          <line num="15" count="2" type="stmt"/>
+        </file>
+        <file name="reducer.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/examples/profile/reducer.js">
+          <metrics statements="5" coveredstatements="2" conditionals="5" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="13" count="21" type="cond" truecount="1" falsecount="3"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="38" count="21" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.redux.modules.examples.todos">
+        <metrics statements="16" coveredstatements="15" conditionals="9" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <file name="consts.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/examples/todos/consts.js">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="6" count="3" type="stmt"/>
+          <line num="9" count="3" type="stmt"/>
+          <line num="10" count="3" type="stmt"/>
+        </file>
+        <file name="initialState.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/examples/todos/initialState.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="5" count="3" type="stmt"/>
+        </file>
+        <file name="mocks.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/examples/todos/mocks.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+        </file>
+        <file name="reducer.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/examples/todos/reducer.js">
+          <metrics statements="9" coveredstatements="8" conditionals="9" coveredconditionals="8" methods="1" coveredmethods="1"/>
+          <line num="12" count="28" type="cond" truecount="7" falsecount="1"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="42" count="1" type="stmt"/>
+          <line num="48" count="1" type="stmt"/>
+          <line num="54" count="1" type="stmt"/>
+          <line num="60" count="22" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.redux.modules.init">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <file name="consts.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/init/consts.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="3" count="2" type="stmt"/>
+        </file>
+        <file name="initialState.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/init/initialState.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="2" type="stmt"/>
+        </file>
+        <file name="reducer.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/init/reducer.js">
+          <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+          <line num="9" count="21" type="cond" truecount="3" falsecount="0"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="25" count="19" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.redux.modules.request">
+        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <file name="initialState.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/request/initialState.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+        </file>
+        <file name="reducer.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/request/reducer.js">
+          <metrics statements="1" coveredstatements="1" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <line num="12" count="18" type="stmt"/>
+        </file>
+      </package>
+      <package name="web.src.redux.modules.ui">
+        <metrics statements="12" coveredstatements="7" conditionals="7" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <file name="consts.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/ui/consts.js">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+        </file>
+        <file name="initialState.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/ui/initialState.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="4" count="1" type="stmt"/>
+        </file>
+        <file name="reducer.js" path="/Users/aquilesmariani/Projects/chipperApp/website/web/src/redux/modules/ui/reducer.js">
+          <metrics statements="7" coveredstatements="2" conditionals="7" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="17" count="18" type="cond" truecount="1" falsecount="5"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="50" count="18" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
